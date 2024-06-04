@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myinput {
+    font-size: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    border: 2px solid;
+    max-width: fit-content;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:20px 5px 15px rgba(0, 0, 0, 0.603);
+    background-color: dimgray;
+}
+
+label {
+    font-size: 2em;
+}
+
+#submit{
+    font-size: 1.75em;
+    min-width: 10em;
+    color:white ;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: ease 1.5s;
+}
+
+#submit:hover {
+    background-color: rgba(102, 102, 102, 0.699);
+}
+
+#result {
+    font-size: 2em;
+}

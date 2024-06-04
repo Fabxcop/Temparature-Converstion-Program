@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature Converstion Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Temparature Converstion Program</h1><br>
+        <input type="number" id="myinput" value="number"><br><br>
+
+        <input type="radio" id="tofahrenheit" name="rd">
+        <label for="tofahrenheit">Celcius -> Fahrenheit</label><br> <br>
+
+        <input type="radio" id="tocelcius" name="rd">
+        <label for="tocelcius">Fahrenheit -> Celcius</label><br><br>
+
+        <button type="button" onclick="convert()" id="submit">Submit</button><br><br>
+
+        <p id="result"></p>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
